@@ -4871,9 +4871,10 @@ GameObject:
   - component: {fileID: 1952127704708084719}
   - component: {fileID: 3660061886464998107}
   - component: {fileID: 6127636640751886928}
+  - component: {fileID: 3310520815715111362}
   m_Layer: 0
   m_Name: Border
-  m_TagString: Untagged
+  m_TagString: Dog
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4972,6 +4973,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f75a06e6f2aa6174080b9750e51a73db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &3310520815715111362
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952127704715411031}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.10302912, y: 0.21853635, z: 0.2603448}
+  m_Center: {x: 0.00029823184, y: 0.08554646, z: 0.027257662}
 --- !u!1 &1952127704715411817
 GameObject:
   m_ObjectHideFlags: 0
