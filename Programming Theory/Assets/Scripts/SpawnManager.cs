@@ -9,10 +9,14 @@ public class SpawnManager : MonoBehaviour
     [SerializeField] private float zBounds = 15f;
     [SerializeField] private float startDelay = 1f;
     [SerializeField] private float spawnInterval = 1.5f;
+    private MenuManager dog;
 
     private void Start()
     {
         InvokeRepeating("SpawnItems", startDelay, spawnInterval);
+        dog = GameObject.Find("DogManager").GetComponent<MenuManager>();
+        GameObject selectedDog = dog.selectedDog;
+        Instantiate(selectedDog, new Vector3(0, 0, 0), Quaternion.identity);
     }
 
 
